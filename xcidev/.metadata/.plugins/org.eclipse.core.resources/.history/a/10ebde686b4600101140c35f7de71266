@@ -1,0 +1,12 @@
+package method;
+
+public class MethodTest1 {
+	public static void main(String[] args) {
+		print("신해철");
+	}
+
+	private static void print(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+}

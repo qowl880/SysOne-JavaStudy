@@ -1,0 +1,26 @@
+package array;
+
+public class TypingGame {
+	public static void main(String[] args) {
+		String[] words = {
+				"Java",
+				"James Gosling",
+				"Green Project",
+				"Java Development Kit",
+				"Spring Framework",
+				"React",
+				"Node.js",
+				"Write once, Run anywhere",
+				"Sysone",
+				"oracle database"
+		};
+		
+		long startTime = System.currentTimeMillis();
+		for(int i=1; i<=5; i++) {
+			int randomNUmber =((int)Math.random() * words.length);
+			do {	// 타이핑 실수로 인한 재입력
+				System.out.print( i + ":" + words[randomNUmber]);
+			} while (true);
+		}
+	}
+}

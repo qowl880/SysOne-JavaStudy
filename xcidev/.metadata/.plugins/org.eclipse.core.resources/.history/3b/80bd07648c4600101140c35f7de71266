@@ -1,0 +1,7 @@
+package oop1;
+
+import oop.Point2D;
+
+public class Point3D extends Point2D {
+
+}

@@ -1,0 +1,18 @@
+package method;
+
+public class MethodTest6 {
+	public static void main(String[] args) {
+		int[] a = {10};
+		
+		callref(a);
+		System.out.println("종료");
+	}
+
+
+	private static int callref(int[] a) {
+		int sum = a+b;
+		a++;
+		System.out.println("add a:" +a  );
+		return sum;
+	}
+}

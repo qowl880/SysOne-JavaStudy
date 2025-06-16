@@ -1,0 +1,22 @@
+package control;
+
+import java.util.Scanner;
+
+public class ForGame {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("가위는 1, 바위는 2, 보는 3을 입력 >");
+		int input = sc.nextInt();
+		
+		int com = (int)(Math.random()*3) +1;
+		
+		
+		for(int i=1; i<=3; i++) {
+			if(input == i) {
+				System.out.println(com == i ? "비겼습니다" :  com == i+1? "졌습니다" : "이겼습니다");
+			}
+		
+		}
+	}
+}

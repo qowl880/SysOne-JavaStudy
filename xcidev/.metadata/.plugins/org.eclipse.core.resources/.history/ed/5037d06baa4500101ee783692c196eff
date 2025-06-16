@@ -1,0 +1,11 @@
+package control.practice;
+
+public class Four {
+	public static void main(String[] args) {
+		int score = 72;
+		
+		if(score >= 90) {
+			System.out.println("B학점");
+		}
+	}
+}

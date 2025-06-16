@@ -1,0 +1,13 @@
+package control;
+
+import java.util.Calendar;
+
+public class CalendarTest {
+	public static void main(String[] args) {
+		
+		Calendar c = Calendar.getInstance();
+		int dayofweek = c.getFirstDayOfWeek();
+		System.out.println(dayofweek);
+		
+	}
+}

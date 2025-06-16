@@ -1,0 +1,10 @@
+package sec02_string.EX02_ModificationOfStringData;
+
+public class SharingStringObject {
+	public static void main(String[] args) {
+		String str1 = new String("안녕");
+		String str2 = "안녕";
+		String str3 = "안녕";
+		String str4 = new String("안녕");
+	}
+}

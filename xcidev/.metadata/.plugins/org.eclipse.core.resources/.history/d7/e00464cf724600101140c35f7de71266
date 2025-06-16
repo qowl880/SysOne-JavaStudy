@@ -1,0 +1,42 @@
+package method;
+
+import java.util.Scanner;
+
+public class ScissorsGame {
+	public static void main(String[] args) {
+
+		int com = 0;
+		try(Scanner sc = new Scanner(System.in)){ // Scanner를 사용하는 정석 try with resources , 이렇게 해주면 마지막에 sc.close()를 하지 않아줘도 됨
+			System.out.print("가위는 1, 바위는 2, 보는 3을 입력 >");
+			int you = sc.nextInt();
+			com = (int)(Math.random()*3) +1;
+			
+			System.out.println("You : " + caption(you));
+			System.out.println("Com : " + caption(com));
+			
+			
+//			printCaption(you);
+//			printCaption(com);
+			
+		}
+
+	}
+
+	private static void printCaption(int num) {
+		switch(num) {
+		case 1 :System.out.println("가위"); break;
+		case 2 : System.out.println("바위"); break;
+		case 3 : System.out.println("보"); break;
+		default : System.out.println("에러"); break;
+		}
+	}
+
+	private static String caption(int num) {
+		switch(num) {
+		case 1 : return "가위";
+		case 2 : return "바위";
+		case 3 : return "보";
+		default : return "에러";
+		}
+	}
+}

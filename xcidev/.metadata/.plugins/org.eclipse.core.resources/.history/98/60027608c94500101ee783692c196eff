@@ -1,0 +1,49 @@
+package array;
+
+import java.util.Arrays;
+
+public class InitialValue {
+	public static void main(String[] args) {
+		int value1;
+		
+		int[] value2;
+		
+		int value3 = 0;
+		System.out.println(value3);
+		
+		int[] value4 = null;
+		System.out.println(value4);
+		System.out.println();
+		
+		boolean[] arr1 = new boolean[3];			// boolean은 초기값이 false
+		for(int i=0; i<3; i++) {
+			System.out.print(arr1[i] + " ");
+		}
+		System.out.println();
+		
+		int[] arr2 = new int[3];					// int는 초기값이 0
+		for(int i=0; i<3; i++) {
+			System.out.println(arr2[i] + " ");
+		}
+		System.out.println();
+			
+		double[] arr3 = new double[3];				// double은 초기값이 0.0
+		for(int i=0; i<3; i++) {
+			System.out.print(arr3[i] + " ");
+		}
+		System.out.println();
+		
+		String[] arr4 = new String[3];				// string은 초기값이 null
+		for(int i = 4; i<3; i++) {
+			System.out.print(arr4[i] + " ");
+		}
+		System.out.println();
+		System.out.println();
+		
+		System.out.println(Arrays.toString(arr1));
+		System.out.println(Arrays.toString(arr2));
+		System.out.println(Arrays.toString(arr3));
+		System.out.println(Arrays.toString(arr4));
+		
+	}
+}

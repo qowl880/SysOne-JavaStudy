@@ -1,0 +1,14 @@
+package control;
+
+public class DowhileTest1 {
+	public static void main(String[] args) {
+		
+		int i=1;
+		do {
+			System.out.println("Sysone");
+			i++;
+		}while(i<=3);
+
+		System.out.println("종료");
+	}
+}
