@@ -7,6 +7,8 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mylib"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Day9"/>
+	<classpathentry kind="src" path="Day1-Day8"/>
 	<classpathentry kind="lib" path="C:/dev/eclipse/lombok.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
