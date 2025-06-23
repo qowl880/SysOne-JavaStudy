@@ -1,0 +1,84 @@
+package Collection;
+
+import java.util.Comparator;
+import java.util.TreeMap;
+
+class MyClass2{
+	int data1;
+	int data2;
+	public MyClass2(int data1, int data2) {
+		this.data1 = data1;
+		this.data2 = data2;
+	}
+	
+	@Override
+	public String toString() {
+		return "data1 = " + data1 + "을 갖고 있는 클래스"; 
+	}
+}
+
+class MyComparableClass2 implements Comparable<MyComparableClass2>{
+	int data1;
+	int data2;
+	public MyComparableClass2(int data1, int data2) {
+		this.data1 = data1;
+		this.data2 = data2;
+	}
+	
+	@Override
+	public int compareTo(MyComparableClass2 o) {
+		if(this.data1 < o.data1) return -1;
+		else if(this.data1 == o.data1) return 0;
+		else return 1;
+	}
+	
+	@Override
+	public String toString() {
+		return "data1 = " + data1 + "을 갖고 있는 클래스";
+	}
+}
+
+public class TreeMapMethod_2 {
+	public static void main(String[] args) {
+		// 1. Integer 비교
+		TreeMap<Integer, String> treeMap1 = new TreeMap<Integer, String>();
+		Integer intValue1 = new Integer(20);
+		Integer intValue2 = new Integer(10);
+		treeMap1.put(intValue1, "가나다");
+		treeMap1.put(intValue2, "나라다");
+		System.out.println(treeMap1.toString());
+		
+		// 2. String 비교
+		TreeMap<String, Integer> treeMap2 = new TreeMap<String, Integer>();
+		String str1 = "가나";
+		String str2 = "다라";
+		treeMap2.put(str1, 10);
+		treeMap2.put(str2, 20);
+		System.out.println(treeMap2.toString());
+		
+		
+		// 3. MyComparableClass 객체 크기 비교
+		TreeMap<MyComparableClass2, String> treeMap4 = new TreeMap<MyComparableClass2, String>();
+		MyComparableClass2 myComparableClass1 = new MyComparableClass2(2,5);
+		MyComparableClass2 myComparableClass2 = new MyComparableClass2(3,3);
+		treeMap4.put(myComparableClass1, "가나다");
+		treeMap4.put(myComparableClass2, "나라다");
+		System.out.println(treeMap4);
+		
+		// 4. MyClass 객체 크기 비교
+		TreeMap<MyClass2, String> treeMap5 = new TreeMap<MyClass2, String>(new Comparator<MyClass2>() {
+			@Override
+			public int compare(MyClass2 o1, MyClass2 o2) {
+				if(o1.data1 < o2.data1) return -1;
+				else if(o1.data1 == o2.data1) return 0;
+				else return 1;
+			}
+		});
+		
+		MyClass2 myClass1 = new MyClass2(2,5);
+		MyClass2 myClass2 = new MyClass2(3,3);
+		treeMap5.put(myClass1, "가나다");
+		treeMap5.put(myClass2, "나라다");
+		System.out.println(treeMap5);
+	}
+}
