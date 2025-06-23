@@ -11,6 +11,7 @@
 	<classpathentry kind="src" path="Day1-Day8"/>
 	<classpathentry kind="src" path="Day10"/>
 	<classpathentry kind="src" path="Day11"/>
+	<classpathentry kind="src" path="Day12"/>
 	<classpathentry kind="lib" path="C:/dev/eclipse/lombok.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
