@@ -24,7 +24,7 @@ public class JdbcTest {
         		FROM 
         			SCORE
         		"""; 
-        try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD); 
+        try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
              Statement stmt = conn.createStatement(); 
              ResultSet rs = stmt.executeQuery(selectSQL)) { 
  
