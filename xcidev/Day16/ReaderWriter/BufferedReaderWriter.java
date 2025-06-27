@@ -14,7 +14,7 @@ public class BufferedReaderWriter {
 		
 		//#파일객체 생성
 		File readerWriterFile = new File("Day16/ReaderWriter/BufferedFile.txt");
-		
+		 
 		//#1.FileWiter를 이용한 파일 쓰기 (UTF-8 모드)
 		try(Writer writer = new FileWriter(readerWriterFile);
 			BufferedWriter bw = new BufferedWriter(writer);	){
