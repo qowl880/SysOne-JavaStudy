@@ -124,7 +124,7 @@ public class UserDAO {
 			
 			System.out.println(set.getString("USERNAME"));
 		
-			return pstmt.executeQuery();
+			return set;
 		}
 	}
 }
