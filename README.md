@@ -11,7 +11,8 @@
 
 # 🗓 공부 일정
 
-- 25-06-05 ~ 25.06.11 : https://velog.io/@qowl880/%EC%8B%9C%EC%8A%A4%EC%9B%90-%EA%B5%90%EC%9C%A1-1-4%EC%9D%BC%EC%B0%A8
+- 25-06-05 ~ 25.06.11 : 자바 / 변수 / 상수 / 제어문 / 반복문 <br>
+https://velog.io/@qowl880/%EC%8B%9C%EC%8A%A4%EC%9B%90-%EA%B5%90%EC%9C%A1-1-4%EC%9D%BC%EC%B0%A8
 
 
 <br />
