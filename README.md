@@ -19,6 +19,9 @@ https://velog.io/@qowl880/%EC%8B%9C%EC%8A%A4%EC%9B%90-%EA%B5%90%EC%9C%A1-5%EC%9D
 
 - 25.06.16 ~ 25.06.20 : 기본형,참조형 매개변수 / 상속 / Upcasting, DownCasting / 제어자 / 다형성 / 추상화 / 인터페이스 / 내부 클래스
 https://velog.io/@qowl880/%EC%8B%9C%EC%8A%A4%EC%9B%90-%EA%B5%90%EC%9C%A1-6%EC%9D%BC%EC%B0%A8
+
+- 25.06.23 ~ 25.06.27 : 예외처리 / 컬렉션 / 스택과 큐 / 람다 / File
+- https://velog.io/@qowl880/%EC%8B%9C%EC%8A%A4%EC%9B%90-%EA%B5%90%EC%9C%A1-3%EC%A3%BC%EC%B0%A8
 <br />
 
 
