@@ -23,8 +23,8 @@ https://velog.io/@qowl880/%EC%8B%9C%EC%8A%A4%EC%9B%90-%EA%B5%90%EC%9C%A1-6%EC%9D
 - 25.06.23 ~ 25.06.27 : 예외처리 / 컬렉션 / 스택과 큐 / 람다 / File
 https://velog.io/@qowl880/%EC%8B%9C%EC%8A%A4%EC%9B%90-%EA%B5%90%EC%9C%A1-3%EC%A3%BC%EC%B0%A8
 
-- 재귀 함수
-https://velog.io/@qowl880/%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98-zlq3gtzx
+- Enum 클래스
+https://velog.io/@qowl880/%EC%97%B4%EA%B1%B0%ED%98%95enum-29v4vmas
 
 <br />
 
