@@ -39,4 +39,10 @@ https://velog.io/@qowl880/Stream-0db4dx0h
 </div>
 
 <br />
+
+
+# 🗓 공부 일정
+
+- 25.06.30 : ,DB 1일차
+  https://www.notion.so/DB-1-229dd9282d1780d3a609f233e9cca091
  
