@@ -1,4 +1,4 @@
-### 🏢 Sysone Java Study
+### 🏢 Sysone Study
 
 ## 목적 : 자바 공부
 
@@ -31,5 +31,12 @@ https://velog.io/@qowl880/Stream-0db4dx0h
 <br />
 
 
+## 목적 : Oracle DB 공부
 
+# ⚙️ 기술 스택
+<div>
+  <img alt="Oracle" src ="https://img.shields.io/badge/Oracle-007396.svg?&style=for-the-badge&logo=Oracle&logoColor=white"/>
+</div>
+
+<br />
  
