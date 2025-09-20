@@ -1,6 +1,7 @@
 ### 🏢 Sysone Study
 
 ## 목적 : 자바 공부
+정리 블로그 : https://velog.io/@qowl880/posts
 
 # ⚙️ 기술 스택
 <div>
