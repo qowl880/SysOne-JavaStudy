@@ -46,4 +46,6 @@ https://velog.io/@qowl880/Stream-0db4dx0h
 
 - 25.06.30 : ,DB 1일차
   https://www.notion.so/DB-1-229dd9282d1780d3a609f233e9cca091
- 
+
+ - 25.07.01 : DB 2일차
+https://www.notion.so/DB-2-223dd9282d178053b0e5d408e5fe79f2?source=copy_link
