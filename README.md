@@ -58,3 +58,7 @@ https://www.notion.so/DB-4-225dd9282d178060b079dc069abaf0bb?source=copy_link
 
  - 25.07.04 : DB 5일차
 https://www.notion.so/DB-5-DDL-TABLE-VIEW-226dd9282d17804d96b5ed45e1cfddd0?source=copy_link
+
+
+ - 25.07.07 : DB 6일차
+https://www.notion.so/DB-6-228dd9282d17808d80d9d7fe6f8c720f?source=copy_link
